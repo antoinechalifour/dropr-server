@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon index.js",
+    "start": "node index.js",
+    "dev": "./node_modules/.bin/nodemon index.js",
     "test": "jest"
   },
   "author": "Antoine Chalifour <antoine.chalifour@gmail.com>",
